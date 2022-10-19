@@ -1,0 +1,115 @@
+<html>
+  <title>TEMPLE BAR | RESERVAS </title>
+<link rel="stylesheet" type="text/css" 
+href="practica.css"/>
+
+<body>
+  
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    
+    <div class="topnav" id="myTopnav">
+        <a class="navbutton" href= file:///Users/sofiaurregom./Desktop/materiales%20y%20procesos/practica.html>HOME</a>
+        <a class="navbutton" href= file:///Users/sofiaurregom./Desktop/materiales%20y%20procesos/p-nos.html>NOSOTROS</a>
+        <a class="navbutton" href= file:///Users/sofiaurregom./Desktop/materiales%20y%20procesos/menu%CC%81.html >MENÚ</a>
+        <a class="navbutton" href= file:///Users/sofiaurregom./Desktop/materiales%20y%20procesos/p-res.html>RESERVAS</a>
+        <a class="navbutton" href= file:///Users/sofiaurregom./Desktop/materiales%20y%20procesos/maps.html>¿CÓMO LLEGAR?</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    </div>
+    
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += "responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+
+    <h1> RESERVAS </h1>
+
+    
+<center> <form> 
+  <br>
+  <br>
+
+  <div class="main">
+    <!--MAIN-container-->
+    <div class="container">
+      <h3>Para diligenciar su reserva, llene el siguiente formulario:</h3>
+
+      <form action="mail.php" enctype="multipart/form-data" method="post" name="formulario_html5" autocomplete="off">
+
+        <label for="nombre">Nombre</label></br>
+        <input type="text" name="nombre" id="nombre" class="cajas"></br>
+      
+        <label for="telefono">Teléfono</label></br>
+        <input type="number" name="telefono" id="telefono" class="cajas"></br>
+
+        <label for="sede">Sede</label></br>
+        <select name="sede" id="Sede" class="cajas" >
+            <option value="0">(seleccione)</option>
+            <option value="a">SOHO</option>
+            <option value="b">BARRIO NORTE</option>
+            <option value="c">RECOLETA</option>
+            <option value="d">HOLLYWOOD</option>
+            <option value="e">CABALLITO</option>
+            <option value="f">PUERTO MADERO</option>
+            <option value="g">BARRIO CHINO</option>
+            <option value="g">CAMINITO</option>
+          </select><br>
+          <br>
+
+        
+        <label for="llegada">Fecha y hora de llegada</label></br>
+        <input type="datetime-local" id="llegada" name="fecha-hora-llegada" class="cajas">
+        </br>
+     
+        <label for="Cantidad de personas">Cantidad de personas</label></br>
+       <select id="Cantidad de personas" class="cajas">
+        <option value="0">(seleccione)</option>
+        <option value="2-3">2-3</option>
+        <option value="4-6">4-6</option>
+        <option value="+6"> Más de 6 </option>   </br>
+
+    <br>
+
+    <br>
+
+    <input type="submit">
+       
+       </select></br>
+        
+  
+  </form> </center>
+  
+
+
+</body>
+
+<footer> 
+  <center> <p>  NUESTRAS   REDES   SOCIALES </p> 
+
+      <img src="./img/logo.png" width="53" height="50" />
+
+  <a href= https://www.instagram.com/templecerveza>
+       <img src="./img/ig.png" width="30" height="30" />
+      </a> 
+      <a href= https://www.facebook.com/templebarargentina>
+           <img src="./img/Facebook_f_logo_(2019).svg.png" width="30" height="30" />
+          </a>
+           <a href= https://www.youtube.com/c/TEMPLECERVEZA> <img src="./img/ytb.png" width="37" height="27" />
+          </a> 
+          <a href= https://open.spotify.com/user/rnniunedbs6lg9e4qr4gpx0xq?si=260d84906cfb494f&nd=1> <img src="./img/spt.png" width="30" height="30" />
+          </a>
+
+          <img src="./img/logo.png" width="53" height="50" /> </center>
+</footer>
+</html>
