@@ -1,4 +1,5 @@
 <html>
+
     <title>TEMPLE BAR | UBICACIONES </title>
     <link rel="stylesheet" type="text/css" 
     href="practica.css"/>
@@ -8,6 +9,7 @@
 </head>
 
 <body>
+
 
   <div class="topnav" id="myTopnav">
     <a class="navbutton" href= index.html>HOME</a>
@@ -19,33 +21,18 @@
     <i class="fa fa-bars"></i>
   </a>
 </div>
-</div>
-
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += "responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
-
-
-
 
 <h1> UBICACIONES </h1>
 
 <div id="maps"> 
 
-<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" 
+<div class="mapresposive"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" 
     src="https://maps.google.com/maps?q=temple%20bar&t=&z=13&ie=UTF8&iwloc=&output=embed" 
     frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
 </iframe><a href="https://123movies-to.org">
 </a>
 <br>
-<style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>
+
 <a href="https://www.embedgooglemap.net">embedded google map
 </a>
 <style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
@@ -53,23 +40,41 @@ function myFunction() {
 </div>
 </div>
 
-</body>
+<BR>
 
-<footer> 
-    <center> <p>  NUESTRAS   REDES   SOCIALES </p> 
+  <footer> 
+    
 
-        <img src="./img/logo.png" width="53" height="50" />
+    <div class="footer-content">
+        <h3>NUESTRAS   REDES   SOCIALES</h3>
+        <p> Siguenos en todas nuestras redes sociales para contactarte, conocer sobre eventos, descuentos y vivir una experiencia completa TEMPLE. </p>
 
-    <a href= https://www.instagram.com/templecerveza>
-         <img src="./img/ig.png" width="30" height="30" />
-        </a> 
-        <a href= https://www.facebook.com/templebarargentina>
-             <img src="./img/Facebook_f_logo_(2019).svg.png" width="30" height="30" />
+        <ul class="socials">
+            <img src="./img/logo.png" width="53" height="50" />
+            <a href= https://www.instagram.com/templecerveza>
+             <img src="./img/ig.png" width="30" height="30" />
+            </a> 
+            <a href= https://www.facebook.com/templebarargentina>
+            <img src="./img/Facebook_f_logo_(2019).svg.png" width="30" height="30" />
             </a>
-             <a href= https://www.youtube.com/c/TEMPLECERVEZA> <img src="./img/ytb.png" width="37" height="27" />
+            <a href= https://www.youtube.com/c/TEMPLECERVEZA> <img src="./img/ytb.png" width="37" height="27" />
             </a> 
             <a href= https://open.spotify.com/user/rnniunedbs6lg9e4qr4gpx0xq?si=260d84906cfb494f&nd=1> <img src="./img/spt.png" width="30" height="30" />
             </a>
-
-            <img src="./img/logo.png" width="53" height="50" /> </center>
+            <img src="./img/logo.png" width="53" height="50" />
+         </ul>
+    </div>
+ 
 </footer>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+</body>
